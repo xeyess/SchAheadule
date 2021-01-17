@@ -1,0 +1,51 @@
+<resources>
+    //create
+    <string name="app_name">ScAheadule</string>
+    <string name="event_name">Event Name:</string>
+    <string name="time">Time:</string>
+    <string name="category">Category:</string>
+    <string name="description">Description:</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+
+    //import
+    <string name="importData">Import</string>
+    <string name="please_navigate_to_your_exam_timetable">Please navigate to your Exam Timetable.</string>
+
+    //calendar
+    <string name="event">Event</string>
+    <string name="date">Date:</string>
+    <string name="categoryDisplay">Category</string>
+    <string name="descriptionDisplay">Description</string>
+    <string name="notAvailable">N/A</string>
+    <string name="addNew">+</string>
+    <string name="divider">Divider</string>
+
+    //record
+    <string name="total_events">Total Events:</string>
+    <string name="delete">Delete</string>
+    <string name="reset">Reset</string>
+    <string name="import_swinexams">Import SwinExams</string>
+    <string name="refresh">Refresh</string>
+    <string name="filter">Filter:</string>
+
+    //upcoming
+    <string name="go">go</string>
+
+    //list items
+    <string name="icon">Icon</string>
+    <string name="placeholderA">A</string>
+    <string name="placeholderB">B</string>
+    <string name="placeholderC">C</string>
+
+    //settings
+    <string name="add_new">Add New</string>
+    <string name="add_categories">Add Categories</string>
+    <string name="text_size">Text Size:</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="on">On</string>
+    <string name="accessibility">Accessibility:</string>
+    <string name="notifications">Notifications:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

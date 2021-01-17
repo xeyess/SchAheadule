@@ -1,0 +1,15 @@
+02-09-2019<>1:00<>ABC2<>General<>No 2
+03-09-2019<>13:00<>Example<>General<>Help
+01-10-2019<>2:00<>ABC<>General<>ABC
+06-10-2019<>23:00<>Today<>Assignment<>It's time.
+25-10-2019<>12:00<>Data Assignment<>Assignments<>Homework is due, App is due
+25-10-2019<>13:15<>Written Report<>Assignments<>Report needs to be submitted.
+01-11-2019<>12:00<>A1<>General<>A
+01-11-2019<>12:01<>A2<>General<>A2
+03-11-2019<>21:00<>3 3s<>General<>:3
+06-11-2019<>1:00<>Another Day<>General<>TWEWY
+06-11-2019<>8:08<>888<>Exam<>Sample Exam due.
+06-11-2019<>23:23<>Extra Time<>Assignment<>Bonus Time need.
+07-11-2019<>12:00<>Final Report<>Assignment<>Needs to be done ASAP.
+07-11-2019<>13:13<>New<>General<>OP
+25-12-2019<>12:00<>Christmas<>Holidays<>It's Christmas!

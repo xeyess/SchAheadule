@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calendarDisplay">
+    <fragment
+        android:id="@+id/calendarDisplay"
+        android:name="com.example.scaheadule.CalendarDisplay"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_calendarDisplay_to_upcomingEvent"
+            app:destination="@id/upcomingEvent" />
+        <action
+            android:id="@+id/action_calendarDisplay_to_createEvent"
+            app:destination="@id/createEvent" />
+    </fragment>
+    <fragment
+        android:id="@+id/record"
+        android:name="com.example.scaheadule.Record"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" >
+        <action
+            android:id="@+id/action_record_to_importBrowser"
+            app:destination="@id/importBrowser" />
+        <action
+            android:id="@+id/action_record_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.scaheadule.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/upcomingEvent"
+        android:name="com.example.scaheadule.UpcomingEvent"
+        android:label="fragment_upcoming_event"
+        tools:layout="@layout/fragment_upcoming_event" >
+        <action
+            android:id="@+id/action_upcomingEvent_to_record"
+            app:destination="@id/record" />
+    </fragment>
+    <activity
+        android:id="@+id/createEvent"
+        android:name="com.example.scaheadule.Old.CreateEvent"
+        android:label="activity_create_event"
+        tools:layout="@layout/activity_create_event" />
+    <activity
+        android:id="@+id/importBrowser"
+        android:name="com.example.scaheadule.ImportBrowser"
+        android:label="activity_import_browser"
+        tools:layout="@layout/activity_import_browser" />
+</navigation>
